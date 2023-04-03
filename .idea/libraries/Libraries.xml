@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="Libraries">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Libraries/engine.io-client-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libraries/engine.io-server-4.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libraries/gson-2.8.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libraries/json-20090211.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libraries/okhttp-3.12.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libraries/okio-1.15.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libraries/slf4j-simple-1.7.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libraries/socket.io-client-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libraries/socket.io-server-3.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libraries/jackson-annotations-2.14.0-rc1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libraries/jackson-core-2.13.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libraries/jackson-databind-2.14.0-rc1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libraries/netty-buffer-4.1.80.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libraries/netty-codec-4.1.80.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libraries/netty-codec-http-4.1.80.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libraries/netty-common-4.1.80.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libraries/netty-handler-4.1.80.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libraries/netty-resolver-4.1.80.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libraries/netty-socketio-1.7.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libraries/netty-transport-4.1.80.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libraries/netty-transport-classes-epoll-4.1.80.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libraries/netty-transport-native-unix-common-4.1.80.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Libraries/slf4j-api-1.7.33.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
