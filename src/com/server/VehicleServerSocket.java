@@ -20,12 +20,9 @@ public class VehicleServerSocket extends Thread {
         config.setHostname("localhost");
         config.setPort(AppSettings.serverPort);
         SocketIOServer server = new SocketIOServer(config);
-        server.addEventListener("newItem", String.class, new DataListener<String>() {
-            @Override
-            public void onData(SocketIOClient socketIOClient, String s, AckRequest ackRequest) throws Exception {
-                System.out.println("Received message: " + s);
-                VehicleService.addVehicleToReceivedVehicleList(s);
-            }
+        server.addEventListener("newItem", String.class, (socketIOClient, s, ackRequest) -> {
+            System.out.println("Received message: " + s);
+            VehicleService.addVehicleToReceivedVehicleList(s);
         });
         server.start();
     }

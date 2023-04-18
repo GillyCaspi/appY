@@ -29,6 +29,6 @@ public class VehicleClientSocket {
             initialConnection();
         }
         socket.emit("newItem", new Gson().toJson(v));
-        System.out.println(v);
+        System.out.println("object sent: " + v);
     }
 }
